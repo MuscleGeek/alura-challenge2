@@ -1,5 +1,7 @@
 html{
     background-color: azure;
+    background-image: url("https://i.pinimg.com/originals/10/b2/7d/10b27d33cb1d1b69e9db7384e3a7e9bd.png");
+    background-size: cover;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -9,7 +11,7 @@ html{
 }
 
 .contenedor {
-    width: 1000px;
+    width: 1400px;
     height: 75%;
     border: green 1px dotted;
     display: flex;
@@ -40,10 +42,11 @@ html{
 .contenedor-box3 {
     margin-top: 10px;
     padding: 10px;
-    width: 400px;
+    width: 1200px;
     height: 30%;
     border: black 1px dotted;
-    align-self: flex-start !important;
+    
+    /*align-self: flex-start !important;*/
 
 }
 .contenedor-box4 {
@@ -65,7 +68,13 @@ button {
 .contenedor-foo {
     border: darkmagenta 1px dotted;
     margin: 10px;
-    width: 1020px;
+    width: 1420px;
     height: 50px;
     padding: 5px;
+}
+
+.board {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding-top: 250px;
+    padding-left: 15px; 
 }
