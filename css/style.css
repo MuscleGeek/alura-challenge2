@@ -1,0 +1,71 @@
+html{
+    background-color: azure;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 1000px;
+    height: 75%;
+    border: green 1px dotted;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    margin: 10px;
+    padding: 15px;
+}
+
+.contenedor-box1 {
+    border: blueviolet 1px solid;
+    width: 230px;
+    height: 14%;
+    padding: 5px;
+}
+
+.contenedor-box2 {
+    border: black 1px dotted;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: darkgoldenrod;
+    width: 230px;
+    height: 5%;
+}
+/*BOX HOOKUP*/
+.contenedor-box3 {
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 30%;
+    border: black 1px dotted;
+    align-self: flex-start !important;
+
+}
+.contenedor-box4 {
+    border: darkcyan 1px dotted;
+    width: 230px;
+    height: 14%;
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+button {
+    margin-top: 5px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.contenedor-foo {
+    border: darkmagenta 1px dotted;
+    margin: 10px;
+    width: 1020px;
+    height: 50px;
+    padding: 5px;
+}

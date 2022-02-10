@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Alura Challenge 2</title>
 </head>
 <body>
-    
+    <div class="contenedor">
+        <div class="contenedor-box1">
+            <h1 style="text-align: center; font-weight: 700;">Ahorcado</h1>
+            <hr style="width: 100px; border-color: green;"/>  
+        </div>
+        <div class="contenedor-box2">        
+            <button type="button" id="btn-iniciar">INICIAR JUEGO!</button>       
+        </div>
+        <div class="contenedor-box3">
+            <p>HookUp!
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+                containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+        </div> 
+        <div class="contenedor-box4">        
+            <input type="text" onkeyup="this.value = this.value.toUpperCase()"/>
+            <button type="button" id="btn-agregar">AGREGAR PALABRA!</button>       
+        </div>
+    </div>
+    <footer>
+        <div class="contenedor-foo">
+            <p style="text-align: center;">Creado por Jonathan Villalobos Mora</p>
+        </div>
+    </footer>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
